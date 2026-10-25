@@ -2,15 +2,13 @@
 
 This folder contains two small, independent examples for exploring image and sound classification as materials for computational design. Both use pretrained models locally after downloading their model files on first use.
 
-Examples and documentation by **Sérgio M. Rebelo**.
-
 ## Requirements
 
 - Python 3
 - One shared virtual environment for the examples in this folder, created at `01-getting-started/python/.venv`.
 - Internet access on the first run to download model files and labels.
 
-## Create a virtual environment
+## Create a Virtual Environment
 
 Create the environment once in this `python` folder. Both examples use it, so activate it before installing or running either one.
 
@@ -35,7 +33,7 @@ From an example subfolder, use `..\.venv\Scripts\Activate.ps1` in PowerShell. In
 deactivate
 ```
 
-## Image classification — MobileNet / ImageNet
+## Image Classification — MobileNet / ImageNet
 
 Folder: [`image-classifier/`](image-classifier/)
 
@@ -58,12 +56,10 @@ The `setuptools<81` pin avoids the `pkg_resources` deprecation warning emitted b
 ```bash
 .venv/bin/python image-classifier/classify_image.py image-classifier/data/example.jpg
 ```
-
 The included sample images are in `image-classifier/data/`.
 
-**Design prompt:** how could labels or scores control color, scale, layout, or motion? What changes when the image has an unexpected background or contains several objects?
 
-## Sound classification — YAMNet / AudioSet
+## Sound Classification — YAMNet / AudioSet
 
 Folder: [`sound-classifier/`](sound-classifier/)
 
@@ -78,13 +74,3 @@ python sound-classifier/classify_audio.py sound-classifier/data/bell.wav
 ```
 
 The example audio files are in `sound-classifier/data/`: `bell.wav`, `lion.wav`, and `noise.wav`. To try another one, replace `bell.wav` in the command. You can also supply a path to another WAV file. The script converts stereo to mono and resamples as needed.
-
-**Design prompt:** choose one detected sound category and map its score to a visual state. Compare silence, background noise, and overlapping sounds.
-
-## Shared notes
-
-- Each script runs inference on a supplied file; neither script records from a live camera or microphone.
-- Model files are downloaded from TensorFlow Hub on first use. Some model downloads may require working SSL certificates and access to the model host.
-- Model scores are outputs of the model and should not automatically be read as calibrated confidence.
-- Do not commit personal recordings or identifiable images. Use images and audio with appropriate permissions.
-- Related material: [Sérgio M. Rebelo's computer-vision workshop](https://github.com/sergiomrebelo/workshop-cv).

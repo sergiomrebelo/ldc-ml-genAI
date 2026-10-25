@@ -15,19 +15,18 @@ Examples developed and compiled by Sérgio M. Rebelo, with assistance from Tiago
 5. [Remix](05-remix/README.md) 🚧 — prompts and starter sketches for combining techniques; work in progress.
 6. [Generative AI](06-generative-ai/README.md) 🚧 — local models, ComfyUI, and generative systems; work in progress.
 
-🚧 marks sections that are still being developed. These folders are currently excluded from version control and may not be present in repository checkouts until they are ready to publish.
 
-## Getting started
+## Getting Started
 
 Start with the [Getting Started guide](01-getting-started/README.md), then choose an implementation for your tool. Examples are separate projects and may have different dependencies and setup steps; follow the README inside each example folder.
 
-## Working with model outputs
+## Working with Model Outputs
 
 Treat model predictions as uncertain inputs to a designed system. Inspect labels, scores, and spatial outputs before mapping them to color, scale, position, movement, sound, or composition. Consider how the interaction should behave when confidence is low, predictions change quickly, or the model returns no result.
 
 Facial-expression models classify visible patterns; their output is not reliable evidence of a person's internal emotional state. Avoid committing identifiable student images or personal recordings. Check the licenses and limitations of models, datasets, libraries, and external resources before sharing work.
 
-## Repository guidance
+## Repository Guidance
 
 - Keep examples small, runnable, and documented with their dependencies and model sources.
 - Pin library versions in teaching examples where practical; avoid floating `latest` versions.

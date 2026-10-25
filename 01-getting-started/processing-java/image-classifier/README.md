@@ -19,11 +19,3 @@ python classifier_service.py data/example.jpg
 ```
 
 Keep the terminal running. Then open `image_classifier.pde` in Processing Java Mode and run the sketch. Click the sketch to request a prediction. The model and ImageNet labels download on first run. The displayed score is the model's softmax probability for its top class; it is not a guarantee that the prediction is correct.
-
-## Author and reference
-
-Example by **Sérgio M. Rebelo**. Related material: [workshop-cv](https://github.com/sergiomrebelo/workshop-cv).
-
-## Design prompt
-
-The sketch maps the top predicted class score to circle size. What changes if size represents the class index, or if each class maps to a different color instead?
