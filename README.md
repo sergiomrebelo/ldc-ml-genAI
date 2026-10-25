@@ -1,0 +1,2 @@
+# ldc-ml-genAI
+Computational Design Laboratory: Machine Learning and Generative AI is a collection of hands-on tutorials exploring machine learning and generative AI as materials for computational design. Examples span p5.js and ml5.js, Python, Processing Java, and TouchDesigner, with exercises in classification, detection, tracking, transformation, model training, and local generative AI. Students use model outputs to shape visual and interactive systems while considering uncertainty, limitations, and responsible use.
