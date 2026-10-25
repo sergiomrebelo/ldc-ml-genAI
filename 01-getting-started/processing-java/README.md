@@ -1,14 +1,14 @@
 # Machine Learning with Processing (Java Mode)
 
-This collection introduces Machine Learning examples in Processing Java Mode. The sketches explore two approaches: running pretrained vision models directly in Processing and using a local Python service to run an image classifier. They are small computational-design examples: inspect the model output, map it to a visual variable, and question what that mapping communicates.
+This collection introduces machine-learning examples in Processing Java Mode. The sketches explore two approaches: running pretrained vision models directly in Processing and using a local Python service to run an image classifier. They are small computational-design examples: inspect the model output, map it to a visual variable, and question what that mapping communicates.
 
-Related workshop material: [workshop-cv](https://github.com/sergiomrebelo/workshop-cv).
+Examples and documentation by **Sérgio M. Rebelo**. Related workshop material: [workshop-cv](https://github.com/sergiomrebelo/workshop-cv).
 
 ## Examples
 
 ### Face detection with estimated age and gender labels
 
-Code: [`hello-world/`](hello-world/)
+Project and instructions: [`hello-world/`](hello-world/README.md)
 
 This Processing sketch uses the [Deep Vision for Processing](https://github.com/cansik/deep-vision-processing) library to detect face regions, then run pretrained age and gender attribute classifiers on each face. It draws the detected face and displays the returned labels.
 

@@ -1,5 +1,5 @@
 /*
- * Computational Design Laboratory: Geetting Started with ML 
+ * Computational Design Laboratory: Getting Started with ML
  * Author: Sérgio M. Rebelo <srebelo@dei.uc.pt>
  * Oct 2026
  *
@@ -101,5 +101,5 @@ void draw() {
     stroke(70, 240, 180);
   }
 
-  windowTitle("Geetting Started with ML: Hello World");
+  windowTitle("Getting Started with ML: Hello World");
 }

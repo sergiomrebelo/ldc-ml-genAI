@@ -2,6 +2,8 @@
 
 This section brings together shared setup guidance and small machine-learning (ML) examples implemented with creative coding tools. The focus is on using model outputs—labels, scores, face attributes, landmarks, and masks—as material for computational design: map them to visual parameters, compare how they behave, and question what they represent.
 
+Course material by **Sérgio M. Rebelo**.
+
 ## Run browser examples
 
 Browser sketches that use a camera or microphone should be served from `localhost` or HTTPS. Opening `index.html` directly as a `file://` URL may prevent device access.

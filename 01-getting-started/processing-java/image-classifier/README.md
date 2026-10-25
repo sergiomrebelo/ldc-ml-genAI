@@ -1,5 +1,7 @@
 # Image Classifier — Processing Java Mode
 
+Example by **Sérgio M. Rebelo**. Related material: [workshop-cv](https://github.com/sergiomrebelo/workshop-cv).
+
 The Processing sketch displays a prediction returned by a small Python service. The service uses a pretrained MobileNet model from TensorFlow Hub to classify the sample image at `data/example.jpg`. It converts the model's logits to probabilities with softmax and maps the winning class index to the official 1001-entry ImageNet labels list. The model expects RGB pixel values in the `[0, 1]` range.
 
 ## Run
