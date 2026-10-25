@@ -1,0 +1,49 @@
+<!--
+Computational Design Laboratory: Getting Started with ML (sound classifier)
+Author: Sérgio M. Rebelo <srebelo@dei.uc.pt>
+October 2026
+
+Load p5.js, ml5.js, and the sketch that classifies an image.
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Sound Classifier</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+    <script src="https://unpkg.com/ml5@1/dist/ml5.js"></script>
+    <script src="sketch.js" defer></script>
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            color: white;
+            font: 16px system-ui
+        }
+
+        main {
+            max-width: 760px;
+            margin: 3rem auto
+        }
+
+        button {
+            font-size: 1rem;
+            padding: .7rem 1rem
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Sound classifier</h1>
+        <p>Click start and try a spoken command, silence, and background noise.</p><button id="start">Start microphone</button>
+        <p id="status">Model loading…</p>
+        <h2 id="label">—</h2>
+        <p id="confidence"></p>
+    </main>
+</body>
+
+</html>

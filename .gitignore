@@ -1,0 +1,52 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Python virtual environments, caches, and compiled files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript dependencies and generated build output
+node_modules/
+dist/
+build/
+
+# Local environment variables and secrets. Keep documented templates.
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Local caches and downloaded model assets (keep small, licensed teaching data)
+.cache/
+model-cache/
+local-models/
+
+# TouchDesigner backups and autosaves. Keep the source .toe and .tox examples.
+**/[Bb]ackup/
+*.toe.bak
+*.tox.bak
+*.toe.autosave
+*.tox.autosave
+
+# Runtime logs
+*.log
+
+# Sections intentionally excluded while they are unfinished.
+# Remove these entries individually when those sections are ready to publish.
+/02-detection-and-tracking/
+/03-transform/
+/04-train-and-customize/
+/05-remix/
+/06-generative-ai/
+/resources/

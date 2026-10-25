@@ -1,0 +1,51 @@
+<!--
+Computational Design Laboratory: Getting Started with ML (image classifier)
+Author: Sérgio M. Rebelo <srebelo@dei.uc.pt>
+October 2026
+
+Load p5.js, ml5.js, and the sketch that classifies an image.
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Image Classifier</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+    <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+    <script src="sketch.js" defer></script>
+    <style>
+        body {
+            margin: 0;
+            background: #171717;
+            color: #f4f4f4;
+            font: 15px system-ui
+        }
+
+        main {
+            max-width: 850px;
+            margin: 24px auto
+        }
+
+        canvas {
+            max-width: 100%;
+            height: auto
+        }
+
+        button {
+            padding: .6rem 1rem
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Image classifier</h1>
+        <p>Show an object, then notice how framing and background affect the prediction.</p>
+        <div id="status">Loading model…</div><button id="camera">Start camera</button>
+    </main>
+</body>
+
+</html>
