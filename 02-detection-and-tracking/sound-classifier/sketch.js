@@ -2,9 +2,14 @@
 * Computational Design Laboratory: Sound Classifier
 * Author: Sérgio M. Rebelo <srebelo@dei.uc.pt>
 * October 2026
-* 
-* This sketch uses the pretrained `SpeechCommands18w` model to classify short audio patterns from the microphone
-* based on https://docs.ml5js.org/#/reference/sound-classifier
+*
+* This sketch uses the pretrained SpeechCommands18w model to classify
+* short audio patterns captured by the microphone, using ml5.js:
+* https://docs.ml5js.org/#/reference/sound-classifier
+*
+* For environmental sound classification, see YAMNet, which can be loaded
+* in JavaScript with MediaPipe. See the example in
+* /01-getting-started/python/sound-classifier/
 */
 
 let classifier;

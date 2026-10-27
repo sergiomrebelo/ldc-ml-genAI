@@ -8,8 +8,8 @@ Examples developed and compiled by Sérgio M. Rebelo, with assistance from Tiago
 
 ## Topics
 
-1. [Getting Started](01-getting-started/README.md) — introductory classification examples in p5.js/ml5.js, Python, Processing Java Mode, and TouchDesigner.
-2. [Detection and Tracking](02-detection-and-tracking/README.md) 🚧 — face, body, hand, object, and depth examples; this section is still being completed.
+1. [Getting Started](01-getting-started/) — introductory classification examples in p5.js/ml5.js, Python, Processing Java Mode, and TouchDesigner.
+2. [Detection and Tracking](02-detection-and-tracking/) — examples for detecting and tracking faces, bodies, hands, objects, and depth.
 3. [Transform](03-transform/README.md) 🚧 — experiments mapping model outputs to visual behavior; work in progress.
 4. [Train and Customize](04-train-and-customize/README.md) 🚧 — Teachable Machine and TensorFlow.js activities; work in progress.
 5. [Remix](05-remix/README.md) 🚧 — prompts and starter sketches for combining techniques; work in progress.
