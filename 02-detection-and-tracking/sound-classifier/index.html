@@ -1,0 +1,54 @@
+<!--
+Computational Design Laboratory: Body Segmentation
+Author: Sérgio M. Rebelo <srebelo@dei.uc.pt>
+October 2026
+
+This sketch uses the pretrained `SpeechCommands18w` model to classify short audio patterns from the microphone.
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sound Cslassification</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+  <script src="https://unpkg.com/ml5@1/dist/ml5.js"></script>
+  <script src="sketch.js" defer></script>
+  <style>
+    body {
+      margin: 0;
+      background: #171717;
+      color: #f4f4f4;
+      font: 16px system-ui;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    button {
+      padding: .7rem 1rem;
+    }
+
+    #label {
+      font-size: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Sound classification</h1>
+    <p>Start the microphone, then try spoken commands, silence, and background sounds.</p>
+    <button id="start" type="button" disabled>Start microphone</button>
+    <p id="status" role="status">Loading SpeechCommands18w…</p>
+    <h2 id="label">—</h2>
+    <p id="confidence"></p>
+  </main>
+</body>
+
+</html>

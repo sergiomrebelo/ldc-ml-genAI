@@ -19,12 +19,8 @@ Open `hello_world.pde` in Processing and run the sketch. The sketch opens the de
 
 If the camera does not start, check macOS camera permissions under **System Settings → Privacy & Security → Camera**, then restart Processing. The example uses Processing Video's default camera selection rather than a platform-specific GStreamer pipeline.
 
-## Interpreting the output
+## Interpreting the Output
 
 Age and gender are model estimates, not verified personal attributes. The model's gender categories do not establish a person's gender identity. Test how lighting, pose, camera quality, and face position affect its output, and consider whether an interaction should use these predictions at all.
 
 The Deep Vision API is under development, and its face-detection-to-attribute pipeline is not fully documented. This sketch follows the library's network setup pattern and `runByDetections()` pipeline example; check it against the installed release if the API changes.
-
-## Design prompt
-
-How could a detected face, its position, or an estimated label influence colour, scale, or motion? What should the interaction do when the camera sees no face or when the prediction changes?

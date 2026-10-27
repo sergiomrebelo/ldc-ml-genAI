@@ -1,0 +1,64 @@
+<!--
+Computational Design Laboratory: Body Segmentation
+Author: Sérgio M. Rebelo <srebelo@dei.uc.pt>
+October 2026
+
+This sketch uses the `movieReviews` sentiment model, returning a score from 0 (more negative) to 1 (more positive).
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sentiment Analysis</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+  <script src="https://unpkg.com/ml5@1/dist/ml5.js"></script>
+  <script src="sketch.js" defer></script>
+  <style>
+    body {
+      margin: 0;
+      background: #171717;
+      color: #f4f4f4;
+      font: 16px system-ui;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    textarea {
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      min-height: 9rem;
+      padding: .75rem;
+      font: inherit;
+    }
+
+    button {
+      margin-top: .75rem;
+      padding: .65rem 1rem;
+    }
+
+    #score {
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Sentiment Analysis</h1>
+    <p>Enter a short sentence and inspect the model's sentiment estimate.</p>
+    <textarea id="text" placeholder="For example: I really enjoyed this film."></textarea>
+    <button id="analyse" type="button">Analyse</button>
+    <p id="status" role="status">Loading movie-review model…</p>
+    <p id="score"></p>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!--
+Computational Design Laboratory: Body Segmentation
+Author: Sérgio M. Rebelo <srebelo@dei.uc.pt>
+October 2026
+
+This sketch using pretrained MobileNet model to classify a selected image
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Image classification — ml5.js</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+  <script src="https://unpkg.com/ml5@1.4.0/dist/ml5.min.js"></script>
+  <script src="sketch.js" defer></script>
+  <style>
+    body {
+      margin: 0;
+      background: #171717;
+      color: #f4f4f4;
+      font: 16px system-ui;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 420px;
+      margin-top: 1rem;
+    }
+
+    button,
+    input {
+      margin: .5rem .5rem .5rem 0;
+      padding: .6rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Image Classification</h1>
+    <p>Select an image and compare the model's labels with what you see.</p>
+    <input id="image-file" type="file" accept="image/*">
+    <button id="classify" type="button" disabled>Classify image</button>
+    <p id="status" role="status">Loading MobileNet…</p>
+    <img id="preview" alt="Selected image preview" hidden>
+    <ol id="predictions"></ol>
+  </main>
+</body>
+
+</html>

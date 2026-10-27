@@ -1,0 +1,44 @@
+<!--
+Computational Design Laboratory: Body Segmentation
+Author: Sérgio M. Rebelo <srebelo@dei.uc.pt>
+October 2026
+
+This sketch shows face keypoints or mesh geometry.
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Face Mesh</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+    <script src="https://unpkg.com/ml5@1.4.0/dist/ml5.js"></script>
+    <script src="sketch.js" defer></script>
+    <style>
+        body {
+            background: #111;
+            color: white;
+            font: 15px system-ui
+        }
+
+        main {
+            max-width: 700px;
+            margin: 2rem auto
+        }
+
+        canvas {
+            max-width: 100%;
+            height: auto
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Face Mesh</h1>
+        <p>Map the nose position to a graphic element. No images are stored.</p>
+    </main>
+</body>
+
+</html>

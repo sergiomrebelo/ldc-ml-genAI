@@ -44,9 +44,11 @@ local-models/
 
 # Sections intentionally excluded while they are unfinished.
 # Remove these entries individually when those sections are ready to publish.
-/02-detection-and-tracking/
 /03-transform/
 /04-train-and-customize/
 /05-remix/
 /06-generative-ai/
 /resources/
+
+# Accidental duplicate notes; the canonical guide is README.md.
+/02-detection-and-tracking/README copy*.md

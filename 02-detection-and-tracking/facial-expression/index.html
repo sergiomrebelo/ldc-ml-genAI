@@ -1,0 +1,80 @@
+<!--
+Computational Design Laboratory: Body Segmentation
+Author: Sérgio M. Rebelo <srebelo@dei.uc.pt>
+October 2026
+
+face detection and expression estimation.
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Facial Expression Predictions</title>
+  <script src="https://cdn.jsdelivr.net/npm/@vladmandic/human@3.3.6/dist/human.js"></script>
+  <script src="sketch.js" defer></script>
+  <style>
+    body {
+      margin: 0;
+      background: #171717;
+      color: #f4f4f4;
+      font: 16px system-ui;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .stage {
+      position: relative;
+      max-width: 640px;
+      aspect-ratio: 4 / 3;
+      background: #080808;
+    }
+
+    video,
+    canvas {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    video {
+      transform: scaleX(-1);
+    }
+
+    button {
+      padding: .7rem 1rem;
+    }
+
+    #status {
+      min-height: 1.5em;
+    }
+
+    #prediction {
+      font-size: 1.25rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Facial expression predictions</h1>
+    <p>This model estimates visible expression categories. It cannot determine how someone feels.</p>
+    <button id="start" type="button" disabled>Start camera</button>
+    <p id="status" role="status">Loading Human and face models…</p>
+    <div class="stage">
+      <video id="video" playsinline muted></video>
+      <canvas id="overlay" width="640" height="480"></canvas>
+    </div>
+    <p id="prediction">No prediction yet.</p>
+  </main>
+</body>
+
+</html>
