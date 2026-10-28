@@ -50,5 +50,12 @@ local-models/
 /06-generative-ai/
 /resources/
 
+# Keep the active classification-to-color exercise under version control.
+!/03-transform/
+/03-transform/*
+!/03-transform/README.md
+!/03-transform/classification-to-color/
+!/03-transform/classification-to-color/**
+
 # Accidental duplicate notes; the canonical guide is README.md.
 /02-detection-and-tracking/README copy*.md

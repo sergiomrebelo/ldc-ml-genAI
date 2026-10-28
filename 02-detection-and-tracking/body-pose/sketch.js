@@ -1,3 +1,12 @@
+/*
+* Computational Design Laboratory: Body Segmentation
+* Author: Sérgio M. Rebelo <srebelo@dei.uc.pt>
+* October 2026
+* 
+* This sketch uses ml5.js to capture the body pose
+* based on https://docs.ml5js.org/#/reference/bodypose
+*/
+
 let video;
 let poseModel;
 let poses = [];
