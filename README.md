@@ -12,7 +12,7 @@ Examples developed and compiled by Sérgio M. Rebelo, Tiago Martins and João M.
 2. [Detection and Tracking](02-detection-and-tracking/README.md) — browser examples for body pose and segmentation, hand pose, face mesh and expression, object detection, depth estimation, image and sound classification, and sentiment analysis.
 3. [Transform](03-transform/README.md) — experiments mapping model outputs to visual behavior, including color, drawing, and typography.
 4. [Train and Customise](04-train/README.md) — examples of training classifiers and regressors with ml5.js, using MobileNet feature extraction, and loading an image model trained with Teachable Machine.
-6. Generative AI 🚧 — local models, ComfyUI, and generative systems; **next class.**
+6. **Generative AI** — local models, ComfyUI, and generative systems; (🚧 **next class.**)
 
 
 ## Getting Started
@@ -37,11 +37,12 @@ Facial-expression models classify visible patterns; their output is not reliable
 - [ml5.js](https://ml5js.org/) and [ml5.js documentation](https://docs.ml5js.org/)
 - [TensorFlow.js](https://www.tensorflow.org/js)
 - [MediaPipe](https://developers.google.com/edge/mediapipe)
+- Daniel Shiffman's [The Nature of Code](https://natureofcode.com/) — creative coding, simulations, and generative systems.
+- [Workshop CV repository](https://github.com/sergiomrebelo/workshop-cv)
 <!-- 
 - [Ollama](https://ollama.com/)
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 -->
-- [Workshop CV repository](https://github.com/sergiomrebelo/workshop-cv)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
