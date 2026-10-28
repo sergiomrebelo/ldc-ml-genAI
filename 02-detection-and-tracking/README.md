@@ -1,6 +1,6 @@
 # Detection and Tracking
 
-This folder collects browser-based Machine Learnign (ML) examples for computational design. Some models return locations, landmarks or masks; others assign labels to images, sounds or text. Their outputs can become inputs for visual and interactive systems, but should be interpreted as model estimates rather than facts.
+This folder collects browser-based ML examples for computational design. Some models return locations, landmarks or masks; others assign labels to images, sounds or text. Their outputs can become inputs for visual and interactive systems, but should be interpreted as model estimates rather than facts.
 
 ## Examples
 

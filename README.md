@@ -1,19 +1,18 @@
 # Computational Design Laboratory: Machine Learning and Generative AI
 
-A collection of hands-on tutorials exploring machine learning (ML) and generative AI as materials for computational design. The examples use model outputs such as labels, confidence scores, keypoints, masks, and generated content to create visual, spatial, and sonic interactions.
+A collection of hands-on tutorials exploring machine learning (ML) and generative AI as materials for computational design. The examples use model outputs such as labels, confidence scores, keypoints, masks, and generated content to create visual, spatial, and sonic interactions. They include introductory examples, detection and tracking, transformations of model outputs, and model-training workflows.
 
 This tutorial was developed for the Computational Design Laboratory course unit in the MSc in [Design and Multimedia](https://dm.dei.uc.pt/) at the Faculty of Sciences and Technology, University of Coimbra, Portugal.
 
-Examples developed and compiled by Sérgio M. Rebelo, with assistance from Tiago Martins and João M. Cunha.
+Examples developed and compiled by Sérgio M. Rebelo, Tiago Martins and João M. Cunha.
 
 ## Topics
 
-1. [Getting Started](01-getting-started/) — introductory classification examples in p5.js/ml5.js, Python, Processing Java Mode, and TouchDesigner.
-2. [Detection and Tracking](02-detection-and-tracking/) — examples for detecting and tracking faces, bodies, hands, objects, and depth.
-3. [Transform](03-transform/README.md) 🚧 — experiments mapping model outputs to visual behavior; work in progress.
-4. [Train and Customize](04-train-and-customize/README.md) 🚧 — Teachable Machine and TensorFlow.js activities; work in progress.
-5. [Remix](05-remix/README.md) 🚧 — prompts and starter sketches for combining techniques; work in progress.
-6. [Generative AI](06-generative-ai/README.md) 🚧 — local models, ComfyUI, and generative systems; work in progress.
+1. [Getting Started](01-getting-started/README.md) — setup guidance and introductory ML examples in p5.js/ml5.js, Python, Processing Java Mode, and TouchDesigner.
+2. [Detection and Tracking](02-detection-and-tracking/README.md) — browser examples for body pose and segmentation, hand pose, face mesh and expression, object detection, depth estimation, image and sound classification, and sentiment analysis.
+3. [Transform](03-transform/README.md) — experiments mapping model outputs to visual behavior, including color, drawing, and typography.
+4. [Train and Customise](04-train/README.md) — examples of training classifiers and regressors with ml5.js, using MobileNet feature extraction, and loading an image model trained with Teachable Machine.
+6. Generative AI 🚧 — local models, ComfyUI, and generative systems; **next class.**
 
 
 ## Getting Started
@@ -38,12 +37,14 @@ Facial-expression models classify visible patterns; their output is not reliable
 - [ml5.js](https://ml5js.org/) and [ml5.js documentation](https://docs.ml5js.org/)
 - [TensorFlow.js](https://www.tensorflow.org/js)
 - [MediaPipe](https://developers.google.com/edge/mediapipe)
+<!-- 
 - [Ollama](https://ollama.com/)
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+-->
 - [Workshop CV repository](https://github.com/sergiomrebelo/workshop-cv)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
-For inquiries, open an issue or contact the project maintainers at [sergiorebelo@me.com](mailto:sergiorebelo@me.com).
+For inquiries, open an issue or contact the project maintainers at [srebelo@dei.uc.com](mailto:srebelo@dei.uc.com).

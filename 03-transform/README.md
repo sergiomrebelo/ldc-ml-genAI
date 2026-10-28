@@ -1,5 +1,5 @@
 # Transform Model Outputs
-This folder collects browser-based machine learning (ML) examples for computational design. Each sketch maps a model output—such as a class label, hand keypoint, or object detection—to a visual property. These mappings are design choices that shape how the model's output is experienced.
+This folder collects browser-based ML examples for computational design. Each sketch maps a model output—such as a class label, hand keypoint, or object detection—to a visual property. These mappings are design choices that shape how the model's output is experienced.
 
 ## Examples
 

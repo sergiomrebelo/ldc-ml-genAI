@@ -1,6 +1,6 @@
 # Getting Started: Machine Learning for Computational Design
 
-This folder brings together shared setup guidance and small machine-learning (ML) examples implemented with creative coding tools. The focus is on using model outputs—labels, scores, face attributes, landmarks, and masks—as material for computational design: map them to visual parameters, compare how they behave, and question what they represent.
+This folder brings together shared setup guidance and small ML examples implemented with creative coding tools. The focus is on using model outputs—labels, scores, face attributes, landmarks, and masks—as material for computational design: map them to visual parameters, compare how they behave, and question what they represent.
 
 Course material by **Sérgio M. Rebelo**.
 

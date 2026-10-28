@@ -1,4 +1,4 @@
-# Machine Learning with Python
+# ML with Python
 
 This folder contains two small, independent examples for exploring image and sound classification as materials for computational design. Both use pretrained models locally after downloading their model files on first use.
 

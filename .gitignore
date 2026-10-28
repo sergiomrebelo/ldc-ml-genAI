@@ -6,6 +6,9 @@ Desktop.ini
 *.swo
 *~
 
+# Private or unfinished materials
+**/hidden/
+
 # Python virtual environments, caches, and compiled files
 .venv/
 venv/
@@ -44,11 +47,7 @@ local-models/
 
 # Sections intentionally excluded while they are unfinished.
 # Remove these entries individually when those sections are ready to publish.
-/03-transform/
-/04-train-and-customize/
-/05-remix/
 /06-generative-ai/
-/resources/
 
 # Keep the active classification-to-color exercise under version control.
 !/03-transform/

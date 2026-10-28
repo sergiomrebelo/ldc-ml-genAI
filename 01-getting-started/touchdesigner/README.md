@@ -1,8 +1,6 @@
-# Machine Learning with TouchDesigner
+# ML with TouchDesigner
 
 This folder contains TouchDesigner projects and components for exploring machine learning as a material for computational design. The examples use a minimal classifier and MediaPipe vision tasks to turn image and movement data into inputs for visual systems.
-
-Examples and documentation by **Sérgio M. Rebelo**.
 
 ## Projects and components
 
